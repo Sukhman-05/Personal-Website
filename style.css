@@ -1,0 +1,231 @@
+/* Reset default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for centering content */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+header img.profile-image {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    margin-bottom: 40px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about blockquote {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 4px solid #ccc;
+}
+
+/* Links Section */
+#links {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#links .button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#links .button:hover {
+    background-color: #0056b3;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#projects .button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#projects .button:hover {
+    background-color: #218838;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+footer address {
+    font-style: normal;
+}
+/* Styles for To-Do App Section */
+#todo-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#todo-app h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#todo-app ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-app li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#todo-app li .task-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+#todo-app li .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#todo-app li .delete-button:hover {
+    background-color: #c0392b;
+}
+
+#todo-app input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+#todo-app button.add-task-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+#todo-app button.add-task-btn:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design for the To-Do App */
+@media (max-width: 768px) {
+    #todo-app {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #todo-app input[type="text"] {
+        width: 70%;
+    }
+
+    #todo-app button.add-task-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content horizontally */
+    justify-content: center;  /* Centers content vertically */
+    text-align: center;  /* Ensures text is centered inside the section */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;  /* Limits the maximum width of the section */
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
