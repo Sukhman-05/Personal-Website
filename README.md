@@ -56,6 +56,6 @@ Feel free to contribute to this project! Here's how you can help:
 If you have any questions, feel free to contact me via email or connect with me on LinkedIn or GitHub!
 
 - **Email**: sing1248@mylaurier.ca
-- **GitHub**: @Night-WLU
+- **GitHub**: @Sukhman-05
 - **LinkedIn**: [https://www.linkedin.com/in/sukhman000](https://www.linkedin.com/in/sukhman000)
 
